@@ -1,0 +1,96 @@
+body{
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+#shrimpbackground{
+    opacity: .9;
+    border: 1px hidden;
+    border-radius: 10px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+#fishbackground{
+    opacity: .95;
+    border: 1px hidden;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+#login{
+    border: hidden;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+input[id="email"]{
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 5%;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+input[id="pass"]{
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 5%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    color: rgb(202, 202, 202);
+}
+
+input:focus {
+    outline: 1px solid rgb(255, 90, 0);
+}
+
+input[id="signin"]{
+    background-color: rgb(255, 90, 0);
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    position: relative;
+    right: 28.5%;
+}
+
+input[id="signin"]:hover{
+    background-color: rgb(187, 65, 0);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(8, 102, 255);
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    position: relative;
+    left: 35%;
+}
+
+a:hover{
+    text-decoration: underline;
+}
