@@ -1,0 +1,141 @@
+body{
+    overflow: hidden;
+    background-color: antiquewhite;
+    margin: 1px 2px;
+}
+ul{
+    background-color: rgb(255, 128, 59);
+    list-style-type: none;
+    overflow: hidden;
+    height: 70px;
+}
+
+li{
+    float: left;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+li a{
+    display: block;
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    height: 60px;
+}
+
+li a:hover{
+    background-color: black;
+}
+
+#contact{
+    border: 1px hidden;
+    position: absolute;
+    left: 20%;
+}
+
+label{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+
+input[id="name1"]{
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 2%;
+    margin-left: 25px;
+}
+
+input[id="name2"]{
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 2%;
+    margin-left: 25px;
+}
+ 
+input[id="email"]{
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 2%;
+    margin-left: 25px;
+}
+
+input[id="pass"]{
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 2%;
+    margin-left: 25px;
+}
+
+input[id="tel"]{
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-left: 2%;
+    margin-left: 25px;
+}
+
+input[id="message"]{
+    background-color: white;
+    width: 725px;
+    height: 200px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding-bottom: 18%;
+    padding-left: 2%;
+    margin-left: 25px;
+}
+
+input[id="submit"]{
+    background-color: rgb(255, 90, 0);
+    width: 100px;
+    height: 60px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    position: absolute;
+    left: 85%;
+}
+
+input::placeholder{
+    color: rgb(117, 117, 117);
+}
+
+input:focus {
+    outline: 1px solid rgb(255, 90, 0);
+}
